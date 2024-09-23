@@ -15,8 +15,6 @@ function AnteBalanceSettingPage({ doneCallback }) {
 
   const validateBalanceMoreThanAnte = () => {
     if (ante >= playersBalance) {
-      console.log("SUCKA");
-
       return false;
     }
 

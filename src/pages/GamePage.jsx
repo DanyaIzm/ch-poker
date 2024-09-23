@@ -46,8 +46,6 @@ function GamePage({ bettingManager }) {
     forceUpdate();
   }
 
-  console.log(bettingManager.lastPlayer);
-
   return (
     <div className="h-screen flex content-center justify-center flex-col select-none">
       {bettingManager.state === GameStates.revealCards ? (
