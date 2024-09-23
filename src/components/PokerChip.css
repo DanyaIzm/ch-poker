@@ -1,0 +1,17 @@
+/* https://codepen.io/yakovd33/pen/jbbbPM */
+.chip {
+    border-radius: 50%;
+    border: 7px dashed white;
+    transition: all 400ms ease-in-out;
+    rotate: 0deg;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+}
+
+.chip:hover {
+    rotate: 360deg;
+}
